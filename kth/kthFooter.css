@@ -1,0 +1,39 @@
+#footer  {
+    /* puts the elements inside the footer next to eachother */
+    display: flex;
+    /* "wraps" the elements inside to the window */
+    flex-wrap: wrap;
+    /* makes the footer be always at the bottom of the window */
+    position: fixed;
+    /* the bottom property affects the vertical position of a
+        vertical element. 0 indicates 0px from the element under this one */
+    bottom: 0;
+    width: 100%;
+    font-size: 2em;
+    background-color: dimgrey;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#footer ul {
+    list-style-type: none;
+
+}
+#col {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 23%;
+}
+#col ul li a {
+    text-decoration: none;
+    color:black;
+}
+ul {
+    padding-left: 0;
+}
+li {
+    /* puts some margin on the list items */
+    margin-bottom: 15px;
+}
+body {
+    margin: 0;
+}
