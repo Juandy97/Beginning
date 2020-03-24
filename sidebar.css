@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+}
+
+.navbar {
+    height: 100%;
+    width: 150px;
+    /* Makes the sidebar stay on the page all the time */
+    position: fixed;
+    /* It will be on top other elements */
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.navbar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 50px;
+  color: #818181;
+  display: block;
+}
+.navbar a:hover {
+    color: black;
+    border: red solid;
+}
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}

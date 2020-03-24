@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+}
+/* For the navigation bar */
+.navbar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    background-color: #f1f1f1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+/* For the links of the navigation bar */
+.navbar a {
+    text-decoration: none;
+    display: block;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 30px;
+}
+/* For the main content */
+.main {
+    margin-left: 250px;
+    margin-right: 50;
+}
+/* Makes the container "flex" */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* All div who are children of .flex-container gets 10px margin */
+.flex-container > div {
+    margin: 10px;
+}
+/* Each div.gallery is an image with a explaining text */
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 23%;
+    transition: transform .2s;
+}
+/* When hovering over the gallery */
+div.gallery:hover {
+    border: 1px solid black;
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+}
+/* For the images of the gallery class */
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+/* For the description class (desc) */
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.title {
+    text-align: center;
+    font-size: 3em;
+    
+}
+.sub-title {
+    padding: 5px;
+}
