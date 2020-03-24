@@ -24,7 +24,7 @@ body {
 /* For the main content */
 .main {
     margin-left: 250px;
-    margin-right: 50;
+    margin-right: 100px;
 }
 /* Makes the container "flex" */
 .flex-container {
@@ -66,4 +66,72 @@ div.desc {
 }
 .sub-title {
     padding: 5px;
+}
+/* To inlcude the margin and padding in the width and height */
+* {
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #1abc9c;
+    text-align: center;
+    margin: 0;
+}
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+.month ul li {
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+  
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+    
+}
+.weekdays li {
+    display: inline-block;
+    width: 14%;
+    color: #666;
+    text-align: center;
+    font-size: 50px;
+}
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+.days a {
+    text-decoration: none;
+    color: #777;
+} 
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 14%;
+    text-align: center;
+    margin: 20px 0px;
+    font-size:60px;
+    color: #777;
+}
+.days li:hover {
+    background: #1abc9c;
+    color: white 
 }
