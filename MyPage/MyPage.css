@@ -75,7 +75,7 @@ ul {
     list-style-type: none;
 }
 .month {
-    padding: 70px 25px;
+    padding: 50px 25px;
     width: 100%;
     background: #1abc9c;
     text-align: center;
@@ -87,7 +87,7 @@ ul {
 }
 .month ul li {
     color: white;
-    font-size: 50px;
+    font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
@@ -108,10 +108,10 @@ ul {
 }
 .weekdays li {
     display: inline-block;
-    width: 14%;
+    width: 13%;
     color: #666;
     text-align: center;
-    font-size: 50px;
+    font-size:30px;
 }
 .days {
     padding: 10px 0;
@@ -125,13 +125,55 @@ ul {
 .days li {
     list-style-type: none;
     display: inline-block;
-    width: 14%;
+    width: 13%;
     text-align: center;
-    margin: 20px 0px;
-    font-size:60px;
+    margin: 10px 0px;
+    font-size: 30px;
     color: #777;
 }
 .days li:hover {
     background: #1abc9c;
     color: white 
+}
+.flex-table {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	/* min-height: 100vh; */
+	padding: 4rem 0;
+	font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+table {
+	width: 100%;
+	/* max-width: 50rem; */
+    
+}
+tr:nth-child(even) th {
+	color: #ccc;
+	font-weight: normal;
+}
+th, td {
+    padding: 0.5rem 1rem;
+    font-size: 40px;
+}
+	
+th {
+	font-weight: normal;
+	border-top: thin dotted #ccc;
+}
+	
+td {
+	font-size: 0.8rem;
+	font-weight: bold;
+	line-height: 1.4;
+	border-radius: 0.2rem;
+	transition: opacity 0.3s ease;
+}
+	
+td > span {
+	font-size: 0.8em;
+	font-weight: normal;
+	display: block;
+	width: 100%;
 }
