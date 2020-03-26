@@ -137,13 +137,13 @@ ul {
 }
 .flex-table {
     display: flex;
-	align-items: center;
+	/* align-items: center; */
 	justify-content: center;
 	flex-direction: row;
 	/* min-height: 100vh; */
     padding: 4rem 0;
     padding-top: 1rem;
-	font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 table {
 	width: 100%;
@@ -156,7 +156,6 @@ tr:nth-child(even) th {
 }
 th, td {
     padding: 0.5rem 1rem;
-    font-size: 30px;
 }
 	
 th {
@@ -166,10 +165,11 @@ th {
 	
 td {
 	font-size: 0.8rem;
-	font-weight: bold;
+	/* font-weight: bold; */
 	line-height: 1.4;
-	border-radius: 0.2rem;
-	transition: opacity 0.3s ease;
+	border-radius: 0.9rem;
+    transition: opacity 0.3s ease;
+    text-align: center;
 }
 	
 td > span {
@@ -192,5 +192,5 @@ td > span {
 .co-title2 {
     float: right;
     padding-right: 6rem;
-
 }
+
